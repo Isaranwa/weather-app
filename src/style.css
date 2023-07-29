@@ -57,12 +57,7 @@
   color: #fff;
   font-size: 20px;
   text-align: center;
-  margin: 0 auto;
   display: block;
-}
-.link:hover {
-  cursor: pointer;
-  color: blue;
 }
 
 p {
