@@ -1,0 +1,86 @@
+.contents {
+  margin: 100px auto;
+  padding: 10px 30px;
+  display: block;
+  border: 2px #87ceeb;
+  border-radius: 10px;
+  border-color: #87ceeb;
+  max-width: 700px;
+  background: linear-gradient(
+    to top,
+    lightgrey 0%,
+    lightgrey 1%,
+    #e0e0e0 26%,
+    #efefef 48%,
+    #d9d9d9 75%,
+    #bcbcbc 100%
+  );
+  opacity: 0.9;
+}
+#button {
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  margin: 10px;
+  transition: all 200ms ease-in-out;
+  background-color: #fff;
+  color: black;
+  position: absolute;
+  top: 100px;
+}
+
+#button:hover {
+  cursor: pointer;
+  color: #bcbcbc;
+  background-color: black;
+}
+
+.search {
+  height: 48px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: inset -1px -1px (r, g, b 135, 206, 235);
+  font-size: 17px;
+}
+.weather {
+  margin-top: 20px;
+  padding: 5px 10px;
+}
+
+p {
+  font-size: 30px;
+  border-radius: 80%;
+  box-shadow: 1px 1px grey;
+  transition: all 200ms ease-in-out;
+}
+p:hover {
+  background: radial-gradient(
+    590px at 8.2% 13.8%,
+    rgb(18, 35, 60) 0%,
+    rgb(187, 187, 187) 90%
+  );
+  color: black;
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+h1 {
+  padding: 50px 0 0 0;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+h2 {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+
+h3 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.unit {
+  text-decoration: none;
+}
+.search:hover {
+  color: #87ceeb;
+  background-color: black;
+}
