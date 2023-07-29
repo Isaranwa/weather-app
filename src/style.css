@@ -1,5 +1,5 @@
 .contents {
-  margin: 100px auto;
+  margin: 30px auto;
   padding: 10px 30px;
   display: block;
   border: 2px #87ceeb;
@@ -26,7 +26,7 @@
   background-color: #fff;
   color: black;
   position: absolute;
-  top: 100px;
+  top: 30px;
 }
 
 #button:hover {
@@ -45,6 +45,24 @@
 .weather {
   margin-top: 20px;
   padding: 5px 10px;
+}
+.unit {
+  text-decoration: none;
+}
+.search:hover {
+  color: #87ceeb;
+  background-color: black;
+}
+.link {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+.link:hover {
+  cursor: pointer;
+  color: blue;
 }
 
 p {
@@ -76,11 +94,4 @@ h2 {
 h3 {
   text-align: center;
   padding-bottom: 50px;
-}
-.unit {
-  text-decoration: none;
-}
-.search:hover {
-  color: #87ceeb;
-  background-color: black;
 }
