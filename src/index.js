@@ -48,7 +48,6 @@ const gifUrl =
 background.style.backgroundImage = `url(${gifUrl})`;
 //current location weather forecast
 function showWeather(response) {
-  console.log(response);
   let temp = Math.round(response.data.main.temp);
   let cityName = response.data.name;
   let h1 = document.querySelector("h1");
@@ -62,7 +61,6 @@ function showWeather(response) {
 }
 
 function currentCoordinates(position) {
-  console.log(position);
   let units = "metric";
   let lat = position.coords.latitude;
   let lon = position.coords.longitude;
@@ -79,7 +77,6 @@ let button = document.querySelector("button");
 button.addEventListener("click", getCurrentPosition);
 //search engine for city weather
 function getCoordinates(coordinates) {
-  console.log(coordinates);
   let units = "metric";
   let lat = coordinates.data[0].lat;
   let lon = coordinates.data[0].lon;
